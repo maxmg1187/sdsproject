@@ -21,7 +21,7 @@ def load_css(file_name):
 st.set_page_config(layout="wide")
 
 # Configure the Google AI model with an environment variable for the API key
-api_key = os.getenv('GOOGLE_GENAI_KEY', 'AIzaSyAQUH2gMLozHX5chMBIr2WNLDUUSkMWdJs')  # Use a default or throw an error
+api_key = os.getenv('GOOGLE_GENAI_KEY', 'placeholder')  # Use a default or throw an error
 genai.configure(api_key=api_key)
 text_model = genai.GenerativeModel('gemini-pro')
 image_model = genai.GenerativeModel('gemini-pro-vision')
