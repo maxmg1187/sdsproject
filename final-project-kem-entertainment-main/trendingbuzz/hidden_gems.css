@@ -1,0 +1,54 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+    background-image: linear-gradient(180deg, #82A7EF, white);  /* Background gradient from blue to white */
+}
+
+.st-emotion-cache-uf99v8 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #82A7EF, white);
+}
+
+
+
+/* Header bar at the top of the page */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2.875rem;
+    background-color: black; /* Background color for header */
+    outline: none;
+    z-index: 999990;
+    display: block;
+}
+
+/* Styling for text elements */
+p, ol, ul, dl {
+    margin: 0px 0px 1rem;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold; /* Making text bold */
+    color: black; /* Text color */
+}
+
+/* Header titles styling */
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #31333F; /* Text color for headers */
+    letter-spacing: -0.005em;
+    padding: 1rem 0px;
+    margin: 0px;
+    line-height: 1.2;
+}

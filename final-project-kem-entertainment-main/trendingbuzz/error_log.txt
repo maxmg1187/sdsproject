@@ -1,0 +1,2 @@
+Failed prompt: A movie poster for Asterix & Obelix: Mission Cleopatra - Error: list index out of range
+Failed prompt: A movie poster for The Death King - Error: 400 Image generation failed with the following error: The response is blocked, as it may violate our policies. If you believe this is an error, please send feedback to your account team. Error Code: 42876398

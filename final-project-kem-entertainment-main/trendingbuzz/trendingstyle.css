@@ -1,0 +1,48 @@
+.st-emotion-cache-uf99v8 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #82A7EF, white);
+}
+.st-emotion-cache-10trblm {
+    position: relative;
+    flex: 1 1 0%;
+    margin-left: calc(3rem);
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding-left: 10px;
+    text-align: center;
+    height: 50px;
+    padding-top: px;
+}
+.st-emotion-cache-18ni7ap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 2.875rem;
+    background: rgb(255, 255, 255);
+    outline: none;
+    z-index: 999990;
+    display: block;
+    background-color: black;
+}
+p, ol, ul, dl {
+    margin: 0px 0px 1rem;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: rgb(49, 51, 63);
+    letter-spacing: -0.005em;
+    padding: 1rem 0px;
+    margin: 0px;
+    line-height: 1.2;
+}

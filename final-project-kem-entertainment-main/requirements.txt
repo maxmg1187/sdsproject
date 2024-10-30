@@ -1,0 +1,8 @@
+streamlit
+vertexai
+bigquery
+google-generativeai
+pytest
+mock
+
+

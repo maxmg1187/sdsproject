@@ -1,0 +1,30 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "us-west2-docker.pkg.dev/citric-lead-411804/kementertainment/kem-webapp-image",
+        ".",
+      ]
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "push",
+        "us-west2-docker.pkg.dev/citric-lead-411804/kementertainment/kem-webapp-image",
+      ]
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      [
+        "run",
+        "deploy",
+        "kementertainment",
+        "--image",
+        "us-west2-docker.pkg.dev/citric-lead-411804/kementertainment/kem-webapp-image",
+        "--region",
+        "us-west2",
+        "--port",
+        "8501",
+        "--allow-unauthenticated",
+        "--set-secrets=API_KEY=projects/1072725137962/secrets/my-genai-api-key/versions/latest",
+      ]
